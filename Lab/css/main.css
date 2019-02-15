@@ -1,0 +1,19 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container > .column {
+    width: 480px;
+   
+}
+.flex-container > .column:last-child {
+    margin-right: 0;
+}
+
+p{
+    margin-bottom: 20px;
+}
+h1{
+    margin-bottom: 20px;
+}
